@@ -1,0 +1,19 @@
+{
+  "name": "mediamelon-plugin",
+  "version": "1.0.0",
+  "description": "MediaMelon Kaltura Player JS Plugin",
+  "main": "index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/venkataMM/mediamelon-plugin.git"
+  },
+  "author": "mediamelon",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/venkataMM/mediamelon-plugin/issues"
+  },
+  "homepage": "https://github.com/venkataMM/mediamelon-plugin#readme"
+}
