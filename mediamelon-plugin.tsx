@@ -1,5 +1,5 @@
 import { BasePlugin, KalturaPlayer} from '@playkit-js/kaltura-player-js';
-import { MediaMelonKPPluginConfig } from './mediamelon-plugin-config';
+// import { MediaMelonKPPluginConfig } from './mediamelon-plugin-config';
 import {KALTURAPlayerMMSSIntgr} from 'mediamelon-kaltura-sdk'
 
 export const pluginName = 'mediaMelonKPPlugin';
@@ -58,3 +58,33 @@ export class MediaMelonKPPlugin extends BasePlugin {
     super.updateConfig(update);    
   }
 }
+
+
+export interface MediaMelonKPPluginConfig {  
+  customerId: string;
+  domainName: string;
+  subscriberTag: string;
+  subscriberId: string;
+  subscriberType: string;
+  playerName: string;
+  playerVersion: string;
+  playerBrand: string;
+  playerModel: string;
+  videoAssetInfo: {
+    assetId: string;
+    assetName: string;
+    videoId: string;
+    seriesTitle: string;
+    episodeNumber: string;
+    season: string;
+    contentType: string;
+    drmProtection: string;
+    genre: string;
+  }
+  appName: string;
+  appVersion: string;
+  deviceMarketingName: string;
+  deviceId: string;
+  videoQuality: string;
+  customTags: {}
+};
