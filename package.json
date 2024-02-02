@@ -2,7 +2,7 @@
   "name": "mediamelon-plugin",
   "version": "1.0.0",
   "description": "MediaMelon Kaltura Player JS Plugin",
-  "main": "index.ts",
+  "main": "mediamelon-plugin.tsx",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/venkataMM/mediamelon-plugin/issues"
   },
-  "homepage": "https://github.com/venkataMM/mediamelon-plugin#readme"
+  "homepage": "https://github.com/venkataMM/mediamelon-plugin#readme",
+  "dependencies": {
+    "mediamelon-kaltura-sdk": "^1.0.0"
+  }
 }
